@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência de Viagens</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-dark">
+    <header class=".bg-dark.bg-gradient text-white p-3 text-center">
+        <i class="fas fa-plane fa-3x"></i>
+        <h1>
+            Bem-vindo à nossa Agência de Viagens
+        </h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link " href="#">Destinos</a>
+                <a class="nav-item nav-link" href="#">Catálogo</a>
+                <a class="nav-item nav-link active" href="#">Carrinho</a>
+            </div>
+        </nav>
+    </header>
+   
+
+    <div class="container mt-5">
+        <h2 class="text-white">Carrinho de Compras</h2>
+        <table class="table table-striped table-dark">
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Quantidade</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tbody>
+                    <tr>
+                        <td>Viagem para Buenos Aires</td>
+                        <td>$1000</td>
+                        <td>1</td>
+                        <td>$1000</td>
+                    </tr>
+                    <tr>
+                        <td>Viagem para Paris</td>
+                        <td>$3200</td>
+                        <td>1</td>
+                        <td>$3200</td>
+                    </tr>
+                </tbody>
+            </tbody>
+        </table>
+        <div class="text-right text-white">
+            <form class="form-inline mb-2">
+                <label for="couponCode" class="sr-only">Cupom de Desconto</label>
+                <input type="text" class="form-control mr-2 bg-dark text-white" id="couponCode" placeholder="Cupom de Desconto">
+                <button type="submit" class="btn btn-secondary">Aplicar</button>
+            </form>
+            <h4>Total: $ 4200.00</h4>                        
+            <a href="finish.html">
+
+            <button class="btn btn-primary">Finalizar Compra</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
